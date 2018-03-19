@@ -5,7 +5,7 @@ Let's play with different flavors and libraries for testing, so we can compare t
 
 # Simple Scheduling Domain
 
-We play with test testing features of a simple scheduling domain. We can Create and approve a shift.
+We play with testing features of a simple scheduling domain. We can Create and approve a shift.
 
 # xBehave
 
