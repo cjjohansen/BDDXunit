@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDDXUnit.Tests", "BDDXUnit.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xBehave.Tests", "xBehave.Tests\xBehave.Tests.csproj", "{9F118234-97B9-417C-A1CE-274E307D8184}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduling.Domain", "Scheduling.Domain\Scheduling.Domain.csproj", "{7E3EB50D-8986-409E-9209-54C96CDDC03E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduling.Domain", "Scheduling.Domain\Scheduling.Domain.csproj", "{7E3EB50D-8986-409E-9209-54C96CDDC03E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

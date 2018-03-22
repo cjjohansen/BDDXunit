@@ -30,19 +30,18 @@ namespace Scheduling.Domain.Specs
         [Scenario]
         public void approving_a_shift(ShiftId shiftId, LocalDate date, Shift aShift)
         {
-            "Given a shift with id 23".x(() =>
+            "Given an unapproved shift".x(() =>
             {
                 var fixture = new Fixture();
                 fixture.Customizations.Add(new ShiftIdArg(23));
 
                 fixture.Customizations.Add( new LocalDateArg(new LocalDate(2018,3,15) ) );
 
-
                 aShift = fixture.Build<Shift>().Create();
+                aShift.IsApproved.Should().BeFalse();
             });
 
-
-            "When approving a shift"
+            "When approving the shift"
                 .x(() => aShift.Approve());
 
             $"Then the shift should be approved "

@@ -7,10 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoFixture" Version="4.1.0" />
+    <PackageReference Include="AutoFixture.Xunit" Version="4.1.0" />
+    <PackageReference Include="FluentAssertions" Version="5.2.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
+    <PackageReference Include="Value" Version="1.1.0.1" />
     <PackageReference Include="xunit" Version="2.3.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
     <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Scheduling.Domain\Scheduling.Domain.csproj" />
   </ItemGroup>
 
 </Project>
