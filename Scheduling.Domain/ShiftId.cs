@@ -25,12 +25,17 @@ namespace Scheduling.Domain
             return new List<object>() { this.id };
         }
 
+        public override string ToString()
+        {
+            return Id.ToString();
+        }
+
         public static implicit operator ShiftId(long id)
         {
             return new ShiftId(id);
         }
 
-        public static implicit operator long( ShiftId id )
+        public static implicit operator long(ShiftId id)
         {
             return id.Id;
         }

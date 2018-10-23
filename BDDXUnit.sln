@@ -9,6 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xBehave.Tests", "xBehave.Te
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduling.Domain", "Scheduling.Domain\Scheduling.Domain.csproj", "{7E3EB50D-8986-409E-9209-54C96CDDC03E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{A9E6F487-528C-459D-8722-3BA2087C72EC}"
+	ProjectSection(SolutionItems) = preProject
+		Tools\generate-gherkin.xsl = Tools\generate-gherkin.xsl
+		Tools\msxsl.exe = Tools\msxsl.exe
+		Tools\run_tests.cmd = Tools\run_tests.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4E23BA53-19F7-4767-A535-6697376C219D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +39,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90C512A0-ADD4-4284-B44D-76565B0F425D} = {4E23BA53-19F7-4767-A535-6697376C219D}
+		{9F118234-97B9-417C-A1CE-274E307D8184} = {4E23BA53-19F7-4767-A535-6697376C219D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D0E797EE-7CA2-462A-8F32-4AD50FDA7CFB}

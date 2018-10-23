@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies timestamp="03/26/2018 21:06:26">
+  <assembly name="xBehave.Tests.dll" environment="64-bit .NET Standard [collection-per-class, parallel (8 threads)]" test-framework="xUnit.net 2.3.1.3858" run-date="2018-03-26" run-time="21:06:25" total="13" passed="13" failed="0" skipped="0" time="0.271" errors="0">
+    <errors />
+    <collection total="13" passed="13" failed="0" skipped="0" name="Test collection for Scheduling.Domain.Specs.ShiftFeatures" time="0.151">
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift() [01] (Background) Given employee is member of department" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0044867" result="Pass" />
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift() [02] (Background) And employee is manager" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0000444" result="Pass" />
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift() [03] Given shiftId is 23" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0003906" result="Pass" />
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift() [04] And date is 2018-03-11" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0000846" result="Pass" />
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift() [05] When creating a shift with shiftId and date" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.000312" result="Pass" />
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift() [06] Then the shift should have Id equal to  " type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0049281" result="Pass" />
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift() [07] And the shift should have OpeningDate equal to Monday, 1 January 0001" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0013512" result="Pass" />
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.approving_a_shift() [01] (Background) Given employee is member of department" type="Scheduling.Domain.Specs.ShiftFeatures" method="approving_a_shift" time="0.0000014" result="Pass" />
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.approving_a_shift() [02] (Background) And employee is manager" type="Scheduling.Domain.Specs.ShiftFeatures" method="approving_a_shift" time="0.0000007" result="Pass" />
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.approving_a_shift() [03] Given an unapproved shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="approving_a_shift" time="0.0621861" result="Pass" />
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.approving_a_shift() [04] When approving the shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="approving_a_shift" time="0.0004337" result="Pass" />
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.approving_a_shift() [05] Then the shift should be approved" type="Scheduling.Domain.Specs.ShiftFeatures" method="approving_a_shift" time="0.0004957" result="Pass" />
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.approving_a_shift() [06] And a ShiftApproved event should be raised" type="Scheduling.Domain.Specs.ShiftFeatures" method="approving_a_shift" time="0.0037462" result="Pass" />
+    </collection>
+  </assembly>
+</assemblies>
