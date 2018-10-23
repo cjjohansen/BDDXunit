@@ -41,6 +41,33 @@ namespace Scheduling.Domain.Specs
             }
         }
 
+        public class ApproveShiftTestData : TheoryData<ShiftId, LocalDate, Shift>
+        {
+            public ApproveShiftTestData()
+            {
+
+                var shiftIds = new[] { 1L, 2L, 3L };
+                var localDates = new[]
+                {
+                    new LocalDate(2017, 3, 11),
+                    new LocalDate(2017, 3, 12),
+                    new LocalDate(2017, 3, 13)
+                };
+
+                for (int i = 0; i < 3; i++)
+                {
+                    var shiftId = new ShiftId(1);
+                    var fixture = new Fixture();
+                    fixture.Customizations.Add(new ShiftIdArg(shiftIds[i]));
+                    fixture.Customizations.Add(new LocalDateArg(localDates[i]));
+                    var aShift = fixture.Build<Shift>().Create();
+
+                    Add(shiftId, localDates[i], aShift);
+                }
+            }
+        }
+
+
         [Scenario]
         [ClassData(typeof(ShiftTestData))]
         public void creating_a_shift(ShiftId shiftId, LocalDate date)
@@ -61,17 +88,11 @@ namespace Scheduling.Domain.Specs
         }
 
         [Scenario]
-        [ClassData(typeof(ShiftTestData))]
+        [ClassData(typeof(ApproveShiftTestData))]
         public void approving_a_shift(ShiftId shiftId, LocalDate date, Shift aShift)
         {
             "Given an unapproved shift".x(() =>
             {
-                var fixture = new Fixture();
-                fixture.Customizations.Add(new ShiftIdArg(shiftId));
-
-                fixture.Customizations.Add(new LocalDateArg(date));
-
-                aShift = fixture.Build<Shift>().Create();
                 aShift.IsApproved.Should().BeFalse();
             });
 
