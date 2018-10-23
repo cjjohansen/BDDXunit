@@ -10,9 +10,7 @@ using Xunit.Abstractions;
 
 namespace Scheduling.Domain.Specs
 {
-    // In order to build complicated widgets
-    // As a widget builder
-    // I want a calculator for performing basic arithmetic
+
     public class ShiftFeatures
     {
         private readonly ITestOutputHelper _testOutputHelper;
