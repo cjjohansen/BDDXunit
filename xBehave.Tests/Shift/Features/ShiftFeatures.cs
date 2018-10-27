@@ -11,6 +11,9 @@ using Xunit.Abstractions;
 namespace Scheduling.Domain.Specs
 {
 
+    /// <summary>
+    /// Tests for Shift behavior
+    /// </summary>
     public class ShiftFeatures
     {
         private readonly ITestOutputHelper _testOutputHelper;
@@ -21,13 +24,13 @@ namespace Scheduling.Domain.Specs
         }
 
 
-        //        [Background]
-        //        public void background()
-        //        {
-        //            "Given employee is member of department".x(()=>{});
-        //            "And employee is manager".x(()=>{});
-        //        }
-        //        
+        [Background]
+        public void background()
+        {
+            "Given employee is member of department".x(() => { });
+            "And employee is manager".x(() => { });
+        }
+
 
         public class ShiftTestData : TheoryData<ShiftId, LocalDate>
         {

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies timestamp="10/27/2018 15:01:43">
+  <assembly name="C:\Dev\BDDXunit\xBehave.Tests\bin\Debug\netcoreapp2.0\xBehave.Tests.dll" run-date="2018-10-27" run-time="15:01:43" total="27" passed="27" failed="0" skipped="0" time="0.037" errors="0">
+    <errors />
+    <collection total="27" passed="27" failed="0" skipped="0" name="Test collection for Scheduling.Domain.Specs.ShiftFeatures" time="0.037">
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0040000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0040000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0020000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.creating_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="creating_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.approving_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="approving_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.approving_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="approving_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.approving_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="approving_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.approving_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="approving_a_shift" time="0.0040000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.approving_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="approving_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.approving_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="approving_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.approving_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="approving_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.approving_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="approving_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.approving_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="approving_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.approving_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="approving_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.approving_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="approving_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+      <test name="Scheduling.Domain.Specs.ShiftFeatures.approving_a_shift" type="Scheduling.Domain.Specs.ShiftFeatures" method="approving_a_shift" time="0.0010000" result="Pass">
+        <traits />
+      </test>
+    </collection>
+  </assembly>
+</assemblies>

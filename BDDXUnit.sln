@@ -12,6 +12,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{A9E6F487-528C-459D-8722-3BA2087C72EC}"
 	ProjectSection(SolutionItems) = preProject
 		Tools\generate-gherkin.xsl = Tools\generate-gherkin.xsl
+		Tools\generate-xbehave-markdown-report.cmd = Tools\generate-xbehave-markdown-report.cmd
 		Tools\msxsl.exe = Tools\msxsl.exe
 		Tools\run_tests.cmd = Tools\run_tests.cmd
 	EndProjectSection
